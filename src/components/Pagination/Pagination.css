@@ -1,0 +1,28 @@
+.Pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    gap: 5px;
+    color: #ccccc1;
+}
+
+.Pagination__Button {
+    width: 30px;
+    height: 30px;
+    background-color: beige;
+    border: 1px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Pagination__Flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Pagination__Button--Active {
+    background-color: blue;
+}

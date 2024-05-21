@@ -1,0 +1,16 @@
+.ShipWrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: #102031;
+}
+
+.ShipsWrapper__Filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-grow: 1;
+}
