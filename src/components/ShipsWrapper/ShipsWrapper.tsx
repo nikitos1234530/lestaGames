@@ -29,7 +29,6 @@ const ShipWrapper = () => {
             );
         });
     }, [data, levelFilter, nationFilter, typeFilter]);
-    console.log('filteredData', filteredData);
     
 
     const handleFilterChange = useCallback((type: string, selectedOption: SingleValue<ShipOption | ShipLevelOption>) => {
@@ -46,7 +45,7 @@ const ShipWrapper = () => {
         const endIndex = startIndex + ITEMS_PER_PAGE;
 
         return filteredData.slice(startIndex, endIndex);
-    }, [filteredData, currentPage, ITEMS_PER_PAGE]);
+    }, [filteredData, currentPage]);
 
     const handlePageChange = (pageNumber: number) => {
         setCurrentPage(pageNumber);
